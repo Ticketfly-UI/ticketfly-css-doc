@@ -1,29 +1,16 @@
-<p>Here is a concat of all the CSS available to ticketfly-css to make it easier to find classnames for development. This should be updated to an actual, organized reference eventually.</p>
+<h1 class="g-gray-9">Available CSS</h1>
 
-<p>Cmd/Ctrl + F any of these modules:</p>
+<p class="g-gray-9">Here is a concat of all the CSS available to <a class="c-link" target="_blank" href="https://github.com/Ticketfly-UI/ticketfly-css">ticketfly-css</a> to make it easier to find classnames for development. This should be updated to an actual, organized reference eventually.</p>
 
 <ul>
-  <li>ticketfly-css-normalize</li>
-  <li>ticketfly-css-core-variables</li>
-  <li>ticketfly-css-box-shadow-variables</li>
-  <li>ticketfly-css-color-variables</li>
-  <li>ticketfly-css-spacing-variables</li>
-  <li>ticketfly-css-display-utilities</li>
-  <li>ticketfly-css-flex-utilities</li>
-  <li>ticketfly-css-overflow-utilities</li>
-  <li>ticketfly-css-sizing-utilities</li>
-  <li>ticketfly-css-spacing-utilities</li>
-  <li>ticketfly-css-text-utilities</li>
-  <li>ticketfly-css-z-index-utilities</li>
-  <li>ticketfly-css-box-objects</li>
-  <li>ticketfly-css-grid-objects</li>
-  <li>ticketfly-css-tap-target-objects</li>
-  <li>ticketfly-css-box-shadow-garnishes</li>
-  <li>ticketfly-css-color-garnishes</li>
-  <li>ticketfly-css-reset-garnishes</li>
+  {{#each model as |module|}}
+    <li class="g-gray-7"><a class="c-link" href="#{{module.name}}">{{module.name}}</a></li>
+  {{/each}}
 </ul>
 
 {{#each model as |module|}}
-  <h2>{{module.name}}</h2>
-  <div>{{module.body}}</div>
+  <h2 class="g-gray-9" id={{module.name}}>{{module.name}}</h2>
+  <pre class="c-pre g-bg-gray-0 u-p-md"><code>{{highlight module.body}}</code></pre>
 {{/each}}
+
+{{#scroll-top-button class="c-button"}}Scroll Top{{/scroll-top-button}}
