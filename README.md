@@ -6,7 +6,7 @@ This project is the rendered docs of [ticketfly-css](https://github.com/Ticketfl
 
 The CSS in every module is fetched on each visit to `/available-css` to ensure the doc is in sync with updates. 
 
-To add/remove modules, assuming the ticketfly-css structure doesn't change, simply make a pull request to edit module names [here](https://github.com/Ticketfly-UI/ticketfly-css-doc/blob/master/app/routes/available-css.js#L6).
+To add/remove modules, assuming the ticketfly-css structure doesn't change, simply make a pull request to edit module names in [app/module-names.js](https://github.com/Ticketfly-UI/ticketfly-css-doc/blob/master/app/module-names.js).
 
 ## Prerequisites
 
