@@ -1,12 +1,21 @@
+/* Variables */
+
 :root {
   --font-family-gibson: 
     Gibson, Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-
   --font-family-akkurat-pro:
     Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-
-  --button-height: 36px;
 }
+
+.c-scroll-top-button {
+  --scroll-top-button-spacing: 1rem;
+}
+
+.c-pre {
+  --pre-line-height: 1.25;
+}
+
+/* Overrides to normalize settings */
 
 html, body {
   background-color: var(--x-color-white);
@@ -15,10 +24,12 @@ html, body {
   line-height: var(--base-line-height);
 }
 
+/* Component class definitions */
+
 .c-scroll-top-button {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: var(--scroll-top-button-spacing);
+  right: var(--scroll-top-button-spacing);
   cursor: pointer;
 }
 
@@ -31,23 +42,7 @@ html, body {
   color: var(--x-color-indigo-5);
 }
 
-.c-button {
-  color: var(--x-color-white);
-  background-color: var(--x-color-indigo-5);
-  font-weight: bold;
-  border-radius: var(--base-border-radius);
-  border: 1px solid transparent;
-  height: var(--button-height);
-  padding: var(--spacing-sm) var(--spacing-md);
-  cursor: pointer;
-  transition: background-color .25s ease-out,color .25s ease-out;  
-}
-
-.c-button:hover {
-  background-color: var(--x-color-indigo-7);
-}
-
 .c-pre {
   border-radius: var(--base-border-radius);
-  line-height: 1.25;
+  line-height: var(--pre-line-height);
 }
