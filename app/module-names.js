@@ -6,6 +6,7 @@ export default [
   'ticketfly-css-box-shadow-variables',
   'ticketfly-css-color-variables',
   'ticketfly-css-spacing-variables',
+  'ticketfly-css-typography-variables',
   'ticketfly-css-display-utilities',
   'ticketfly-css-flex-utilities',
   'ticketfly-css-overflow-utilities',
@@ -20,5 +21,6 @@ export default [
   'ticketfly-css-tap-target-objects',
   'ticketfly-css-box-shadow-garnishes',
   'ticketfly-css-color-garnishes',
-  'ticketfly-css-reset-garnishes'
+  'ticketfly-css-reset-garnishes',
+  'ticketfly-css-typography-garnishes'
 ];
