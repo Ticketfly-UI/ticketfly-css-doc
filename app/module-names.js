@@ -13,6 +13,8 @@ export default [
   'ticketfly-css-spacing-utilities',
   'ticketfly-css-text-utilities',
   'ticketfly-css-z-index-utilities',
+  'ticketfly-css-position-utilities',
+  'ticketfly-css-v-align-utilities',
   'ticketfly-css-box-objects',
   'ticketfly-css-grid-objects',
   'ticketfly-css-tap-target-objects',

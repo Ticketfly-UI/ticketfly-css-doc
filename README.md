@@ -46,7 +46,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Deployment is made to [pagefront](https://www.pagefronthq.com/). Reach out to the  project maintainers for pagefront access.
+Deployment is made to [pagefront](https://www.pagefronthq.com/).
 
 `ember deploy production` 
 
@@ -57,7 +57,3 @@ Deployment is made to [pagefront](https://www.pagefronthq.com/). Reach out to th
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-## Maintainers
-
-@ksin
