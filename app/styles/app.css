@@ -1,48 +1,12 @@
-/* Variables */
+@import "typography-settings.css";
 
-:root {
-  --font-family-gibson: 
-    Gibson, Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-  --font-family-akkurat-pro:
-    Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-}
+@import "utilities.css";
+@import "garnishes.css";
 
-.c-scroll-top-button {
-  --scroll-top-button-spacing: 1rem;
-}
+@import "components/flying-t.css";
 
-.c-pre {
-  --pre-line-height: 1.25;
-}
-
-/* Overrides to normalize settings */
-
-html, body {
-  background-color: var(--x-color-white);
-  font-family: var(--font-family-akkurat-pro);
-  font-size: var(--font-size-14);
-  line-height: var(--base-line-height);
-}
-
-/* Component class definitions */
-
-.c-scroll-top-button {
-  position: fixed;
-  bottom: var(--scroll-top-button-spacing);
-  right: var(--scroll-top-button-spacing);
-  cursor: pointer;
-}
-
-.c-link {
-  color: var(--x-color-gray-7);
-  text-decoration: none;
-}
-
-.c-link:hover {
-  color: var(--x-color-indigo-5);
-}
-
-.c-pre {
-  border-radius: var(--base-border-radius);
-  line-height: var(--pre-line-height);
-}
+/*
+  Questions for ticketfly-css: 
+  - Should base start at 0 or 1? ie: line-height starts at 1 but colors start at 1.
+  - Sometimes we use t-shirt sizes, but other times we use number sizes. Are these descriptive enough?
+*/

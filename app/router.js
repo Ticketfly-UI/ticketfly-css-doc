@@ -8,6 +8,13 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('available-css');
+  this.route('demo', function() {
+    this.route('color');
+    this.route('typography');
+    this.route('grid');
+    this.route('components');
+    this.route('resources');
+  });
 });
 
 export default Router;

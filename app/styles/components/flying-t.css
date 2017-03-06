@@ -1,0 +1,27 @@
+/* Variables */
+
+.c-flying-t {
+  --flying-t-border-radius: 20px;
+  --flying-t-size: 38px;
+
+  --flying-t-icon-width: 18px;
+  --flying-t-icon-height: 21px;
+}
+
+/*
+  Component
+*/
+
+.c-flying-t {
+  width: var(--flying-t-size);
+  height: var(--flying-t-size);
+  border-radius: var(--flying-t-border-radius);
+  display: flex;
+  align-items: center;
+}
+
+.c-flying-t__icon {
+  margin: auto;
+  width: var(--flying-t-icon-width);
+  height: var(--flying-t-icon-height);
+}
