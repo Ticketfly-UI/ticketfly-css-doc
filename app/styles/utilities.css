@@ -13,3 +13,7 @@
 .u-right-1 {
   right: var(--base-spacing-unit);
 }
+
+.u-width-30 {
+  width: 30% !important;
+}

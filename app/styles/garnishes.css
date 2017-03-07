@@ -24,3 +24,19 @@
 .g-border-radius-1 {
   border-radius: var(--base-border-radius);;
 }
+
+.g-bd-gray-1 {
+  border-color: var(--x-color-gray-2);
+}
+
+.g-border-solid {
+  border-style: solid;
+}
+
+.g-border-1 {
+  border-width: 0.0625rem /* 1px */
+}
+
+.g-border-none-top {
+  border-top: none;
+}
