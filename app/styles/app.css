@@ -6,9 +6,11 @@
 @import "components/flying-t.css";
 
 /*
-  Questions for ticketfly-css: 
+  Notes: 
   - Should base start at 0 or 1? ie: line-height starts at 1 but colors start at 1.
   - Sometimes we use t-shirt sizes, but other times we use number sizes. Are these descriptive enough?
   - What are border-radius intervals?
   - Some of the colors are a little off from the design spec
+  - Inconsistent line spacing. Something design needs to give more specs on
+  - Grid gutters come in different sizes. Show that in the demo. Confirm with design.
 */
