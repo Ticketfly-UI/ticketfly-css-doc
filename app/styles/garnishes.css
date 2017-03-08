@@ -1,0 +1,42 @@
+/* Variables */
+
+.g-box-shadow-0 {
+  --box-shadow-color-0: rgba(46,48,56,0.2); /* gray-10 20% */
+  --box-shadow-0: 0 0.125rem 0.25rem var(--box-shadow-color-0);
+}
+
+/* 
+  Garnishes 
+*/
+
+.g-box-shadow-0 {
+  box-shadow: var(--box-shadow-0);
+}
+
+.g-hover-indigo-5:hover {
+  color: var(--x-color-indigo-5);
+}
+
+.g-cursor-pointer {
+  cursor: pointer;
+}
+
+.g-border-radius-1 {
+  border-radius: var(--base-border-radius);;
+}
+
+.g-bd-gray-2 {
+  border-color: var(--x-color-gray-2);
+}
+
+.g-border-solid {
+  border-style: solid;
+}
+
+.g-border-1 {
+  border-width: 0.0625rem /* 1px */
+}
+
+.g-border-none-top {
+  border-top: none;
+}
