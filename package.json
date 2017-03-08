@@ -42,6 +42,7 @@
     "ember-resolver": "^2.0.3",
     "ember-route-action-helper": "2.0.2",
     "ember-ticketfly-buttons": "0.0.2",
+    "ember-toggle-helper": "0.1.1",
     "ember-welcome-page": "^1.0.3",
     "loader.js": "^4.0.10",
     "postcss-cssnext": "^2.9.0",

@@ -11,7 +11,24 @@
       <li class="u-mv-md">{{link-to "Color" "demo.color" class="g-gray-7 g-font-bolder g-no-line g-hover-indigo-5"}}</li>
       <li class="u-mv-md">{{link-to "Typography" "demo.typography" class="g-gray-7 g-font-bolder g-no-line g-hover-indigo-5"}}</li>
       <li class="u-mv-md">{{link-to "Grid" "demo.grid" class="g-gray-7 g-font-bolder g-no-line g-hover-indigo-5"}}</li>
-      <li class="u-mv-md g-gray-7 g-font-bolder g-hover-indigo-5 g-cursor-pointer">Components</li>
+      <li class="u-mv-md g-gray-7 g-font-bolder g-hover-indigo-5 g-cursor-pointer" {{action (toggle this "shouldShowComponents")}}>Components</li>
+
+      {{#if shouldShowComponents}}
+        <ul class="g-list-reset u-ml-md">
+          <li class="u-mv-md">{{link-to "Buttons" "demo.components.buttons" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Cards" "demo.components.cards" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Dialogs" "demo.components.dialogs" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Fields" "demo.components.fields" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Loaders" "demo.components.loaders" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Menus" "demo.components.menus" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Pagination" "demo.components.pagination" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Selection Controls" "demo.components.selection-controls" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Tables" "demo.components.tables" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Toasts" "demo.components.toasts" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+          <li class="u-mv-md">{{link-to "Tooltips" "demo.components.tooltips" class="g-hover-font-bolder g-no-line g-gray-6 g-hover-indigo-5"}}</li>
+        </ul>
+      {{/if}}
+
       <li class="u-mv-md">{{link-to "Resources" "demo.resources" class="g-gray-7 g-font-bolder g-no-line g-hover-indigo-5"}}</li>
     </ul>
   </nav>

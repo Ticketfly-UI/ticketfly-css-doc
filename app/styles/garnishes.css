@@ -17,6 +17,10 @@
   color: var(--x-color-indigo-5);
 }
 
+.g-hover-font-bolder:hover {
+  font-weight: bolder;
+}
+
 .g-cursor-pointer {
   cursor: pointer;
 }

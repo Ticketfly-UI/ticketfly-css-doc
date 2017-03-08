@@ -12,7 +12,19 @@ Router.map(function() {
     this.route('color');
     this.route('typography');
     this.route('grid');
-    this.route('components');
+    this.route('components', function() {
+      this.route('buttons');
+      this.route('cards');
+      this.route('dialogs');
+      this.route('fields');
+      this.route('loaders');
+      this.route('menus');
+      this.route('pagination');
+      this.route('selection-controls');
+      this.route('tables');
+      this.route('toasts');
+      this.route('tooltips');
+    });
     this.route('resources');
   });
 });
